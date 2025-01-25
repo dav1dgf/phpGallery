@@ -1,0 +1,115 @@
+
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    min-height: 65vh;
+}
+
+
+.upload-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #00ffcc;
+    margin-bottom: 20px;
+    text-shadow: 0 0 15px #00ffcc, 0 0 30px #0077ff;
+}
+
+.upload-container input[type="file"],
+.upload-container input[type="text"],
+.upload-container input[type="radio"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1rem;
+}
+
+
+
+.radio-group {
+    
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.radio-group label {
+    margin-left: 8px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group input[type="radio"] + label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: #28a745;
+    transform: scale(1.1);
+}
+
+
+.radio-group input[type="radio"] + label:hover {
+    transform: scale(1.05);
+}
+
+
+.privacy-label {
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+.upload-container button.submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-container button.submit-btn:hover {
+    background-color: #218838;
+}
+
+
+.upload-container .message {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.upload-container .message.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.upload-container .message.error {
+    background-color: #dc3545;
+    color: white;
+}

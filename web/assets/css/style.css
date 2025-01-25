@@ -1,0 +1,211 @@
+
+
+
+body {
+    overflow: auto;
+    background: radial-gradient(circle, #1a2b4c, #0c1120) fixed, url('../img/background.jpg') fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+
+.navbar {
+    background-color: #333;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar-a {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.navbar-b {
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #f0a500;
+}
+
+
+.search-form {
+    
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+   
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #e08900;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bibliograpy {
+    font-size: 0.6rem;
+}
+
+
+.ui-dialog {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #f0a500;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.ui-dialog-titlebar {
+    background-color: #333;
+    color: #f0a500;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+}
+
+.ui-dialog-title {
+    color: #f0a500;
+}
+
+.ui-dialog-content {
+    background-color: #1a2b4c;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.ui-dialog-buttonpane {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+}
+
+.ui-dialog-buttonset {
+    text-align: center;
+}
+
+.ui-button {
+   
+    background-color: #f0a500;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ui-button:hover {
+    background-color: #e08900;
+}
+
+.ui-dialog-titlebar-close {
+    color: #fff;
+    font-size: 20px;
+}
+
+.ui-dialog-titlebar-close:hover {
+    color: #f0a500;
+}
+
+
+
+.flash-message-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flash-message {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 80%;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: flashMessageAnimation 3s forwards;
+}
+
+
+@keyframes flashMessageAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+}
