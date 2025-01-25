@@ -77,11 +77,17 @@ This project is a **gallery of spatial photos** built using PHP with an object-o
   - As the user types, AJAX requests retrieve matching thumbnails asynchronously.
   - Matching results are dynamically displayed without reloading the page.
  
-Some images:
+## Some Images:
+
 ![wai1](https://github.com/user-attachments/assets/cc4c2f24-4ef3-4293-b0a3-69d2f1baa73d)
+
 :![wai6](https://github.com/user-attachments/assets/95f27df6-d5c2-48a7-9f9b-83e87bd6d8b8)
+
 ![wai5](https://github.com/user-attachments/assets/ba3c94d9-8dee-4090-ad5a-60a68273d815)
+
 ![wai4](https://github.com/user-attachments/assets/a2d7ca08-3a00-4a6b-9e4a-96217252e1e6)
+
 ![wai3](https://github.com/user-attachments/assets/88bd7091-3a92-4ca8-98ed-ae1ba540fe55)
+
 ![wai2](https://github.com/user-attachments/assets/47cdd2b9-2cde-4db5-8e7c-4ab947717162)
 
